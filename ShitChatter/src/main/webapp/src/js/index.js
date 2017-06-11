@@ -1,4 +1,10 @@
-var login = require('./login.js');
+var commonText = require('./common-text.js');
+
+var newMessage =() => (`<p>${commonText.appName} är kung i baren</p>`);
 
 var app = document.getElementById("app");
-app.innerHTML = "<p>login with username: "+ login.username + " and password: "+ login.password +"</p>";
+app.innerHTML = newMessage();
+
+if(module.hot){
+    module.hot.accept();
+}
