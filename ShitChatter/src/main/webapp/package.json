@@ -1,0 +1,17 @@
+{
+  "name": "shit-chatter",
+  "version": "1.0.0",
+  "description": "The next big nothing.",
+  "main": "js/index.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "webpack": "^1.15.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "friendlyPrime",
+  "license": "ISC"
+}
