@@ -1,7 +1,8 @@
-var commonText = require('./common-text.js');
+/*var commonText = require('./common-text.js');
 
 import Button from './components/button';
 import Logo from './components/image';
+import Spinner from './components/spinner';
 
 var newMessage =() => (`
     <p>
@@ -11,11 +12,29 @@ var newMessage =() => (`
   `);
 
 var newButton =() => (Button.button);
+class Layout extends React.Compontet{
+    render(){
+      return(
+        <div>
+          <p>Logga in</p>
+        </div>
+      )
+    }
+}
 
-var app = document.getElementById("app");
-app.innerHTML = newMessage();
+const app = document.getElementById('app');
+ReactDOM.render(<Layout/>, app);
 
-Button.attachEl();
+*/
+
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+import Layout from "./layout/layout";
+
+const app = document.getElementById('app');
+ReactDOM.render(<Layout/>, app);
 
 if(module.hot){
     module.hot.accept();

@@ -22,11 +22,14 @@ module.exports = {
   module:{
     loaders: [{
     			test: /\.js$/,
-    			loaders: ['babel-loader'],
+    			loader: 'babel-loader',
+          query: {
+              presets: ['react', 'es2015', 'stage-0']
+            },
     			exclude: /node_modules/
 		  },{
     			test: /\.(png|jpg|gif)$/,
-    			loaders: ['file-loader'],
+    			loaders: ['url-loader?limit=10000&name=images/[hash:12].[ext]'],
     			exclude: /node_modules/
 		  }
     ]
