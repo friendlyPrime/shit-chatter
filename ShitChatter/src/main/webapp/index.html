@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Start Page</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8" />
+    <title>ShitChatter - Login</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
 
-        <div>
-          Namn:
-            <input type="text" />
-            Lösenord:
-            <input type="password" />
-        </div>
+    <div id="content"></div>
 
-    </body>
+    <script type="text/jsx">
+
+        var LoginComponent = React.createClass({
+            render: function() {
+                return (
+                        <h2>Enter credentials</h2>
+                );
+            }
+        });
+        React.render(<LoginComponent />, document.getElementById('content'));
+    </script>
+
+</body>
 </html>
