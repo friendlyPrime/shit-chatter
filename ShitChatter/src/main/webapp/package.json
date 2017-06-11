@@ -1,0 +1,16 @@
+{
+  "name": "shit-chatter",
+  "version": "1.0.0",
+  "description": "The next big nothing.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && webpack ./src/js/index.js dist/bundle.js"
+  },
+  "author": "friendlyPrime",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "webpack": "^2.6.1"
+  }
+}
