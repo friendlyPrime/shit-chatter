@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "8b457c7e66a58f2dfda5"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "a3c88f2d0e934718421d"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -22676,7 +22676,7 @@ var Layout = function (_React$Component) {
           { className: "grid" },
           _react2.default.createElement(
             "form",
-            { action: "https://httpbin.org/post", method: "POST", className: "form login" },
+            { action: "ShitChatter/api/users", method: "POST", className: "form login" },
             _react2.default.createElement(
               "div",
               { className: "form__field" },
