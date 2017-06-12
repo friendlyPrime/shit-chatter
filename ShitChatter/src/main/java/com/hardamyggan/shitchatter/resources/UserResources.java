@@ -25,7 +25,6 @@ import javax.ws.rs.core.MediaType;
 public class UserResources {
     
     UserService userService = new UserService();
-
     
     @GET
     @Produces(MediaType.APPLICATION_JSON)

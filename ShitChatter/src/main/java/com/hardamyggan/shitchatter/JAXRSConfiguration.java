@@ -5,12 +5,14 @@
  */
 package com.hardamyggan.shitchatter;
 
+import javax.ws.rs.core.Application;
+import javax.ws.rs.ApplicationPath;
+
 /**
  *
- * @author phobr
+ * @author Victor
  */
-public class SimpleClass {
-    
-    //TODO: Här ska du skapa din magi Victor :)
+@ApplicationPath("api")
+public class JAXRSConfiguration extends Application {
     
 }
