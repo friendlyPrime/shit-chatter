@@ -2,6 +2,8 @@ import React from "react";
 
 import Footer from "./footer";
 import Header from "./header";
+import Login from "../login";
+var style = require('../../scss/style.scss');
 
 export default class Layout extends React.Component {
   constructor() {
@@ -18,12 +20,8 @@ export default class Layout extends React.Component {
   render() {
     return (
       <div>
-        <Header changeTitle={this.changeTitle.bind(this)} title={this.state.title} />
-        <div>
-          <input type="text"/>
-          <input type="password"/>
-        </div>
-        <Footer />
+      :D
+        <Login />
       </div>
     );
   }
