@@ -12,7 +12,7 @@ export default class Layout extends React.Component {
       <div>
       <Logo />
         <div className="grid">
-        <form action="/api/users" method="POST" className="form login">
+        <form action="ShitChatter/api/users" method="POST" className="form login">
             <div className="form__field">
               <label htmlFor="login__username"><Glyphicon glyph="user"/><span className="hidden">Username</span></label>
               <input id="login__username" type="text" name="username" className="form__input" placeholder="Username" required=""/>
