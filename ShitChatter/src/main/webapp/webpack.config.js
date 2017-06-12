@@ -25,7 +25,7 @@ plugins.push(
   })
 );
 
-const cssIdentifier = PRODUCTION ? '[hash:base64:10]' :'[path][name]---[local]'
+const cssIdentifier = PRODUCTION ? '[hash:base64]' :'[path][name]---[local]'
 
 const cssLoader = PRODUCTION ?
       ExtractTextPlugin.extract({

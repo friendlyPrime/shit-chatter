@@ -21,6 +21,7 @@
     "file-loader": "^0.11.2",
     "node-sass": "^4.5.3",
     "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
     "react-dom": "^15.5.4",
     "rimraf": "^2.6.1",
     "sass-loader": "^6.0.5",

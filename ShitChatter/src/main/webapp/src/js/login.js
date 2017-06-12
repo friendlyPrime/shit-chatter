@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Glyphicon } from 'react-bootstrap';
+
 import Logo from './components/logo';
 
 require('../scss/login.scss');
@@ -12,7 +14,7 @@ export default class Layout extends React.Component {
         <div className="grid">
         <form action="https://httpbin.org/post" method="POST" className="form login">
             <div className="form__field">
-              <label htmlFor="login__username"><svg className="icon"></svg><span className="hidden">Username</span></label>
+              <label htmlFor="login__username"><Glyphicon glyph="user"/><span className="hidden">Username</span></label>
               <input id="login__username" type="text" name="username" className="form__input" placeholder="Username" required=""/>
             </div>
 
